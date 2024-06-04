@@ -1,0 +1,93 @@
+body{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: #42424A;
+}
+
+a{
+    text-decoration: none;
+    color: #0c0c0c;
+}
+
+.menu{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+
+}
+
+main{
+    padding: 2rem;
+}
+
+h1{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+u{
+    text-decoration-color: rgb(245, 162, 9);
+}
+
+address{
+    padding-bottom: 1.2rem;
+}
+
+.about__video{
+    padding-top: 2rem;
+}
+
+@media screen and (min-width: 611px) {
+    body{
+        font-size: 1.3rem;
+    }
+    
+    .menu{
+        justify-content: flex-end;
+    }
+
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .about__video{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    body{
+        color: #fff;
+        background-color: #a399b2;
+        background-image: linear-gradient(147deg, #a399b2 0%, #4d4855 74%);
+    }
+
+    .about__me{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        padding-top: 5rem;
+    }
+
+    .about__me__presentazione{
+        width: 50%;
+    }
+
+    .about__video{
+        width: 20%;
+    }
+
+    a:hover{
+        text-decoration: underline;
+        transition: .2s;
+        text-decoration-color: rgb(245, 162, 9);
+    }
+
+    a{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+}
