@@ -81,7 +81,7 @@ address{
 
     a:hover{
         text-decoration: underline;
-        transition: .2s;
+        transition: .3s;
         text-decoration-color: rgb(245, 162, 9);
     }
 
